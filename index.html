@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Complete Responsive Online Education Website Design</title>
+
+   <!-- swiper css link  -->
+   <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+   
+<!-- header section starts  -->
+
+<header class="header">
+
+   <section class="flex">
+
+      <a href="#home" class="logo">Perspectiva Educativa </a>
+
+      <nav class="navbar">
+         <a href="#home">Home</a>
+         
+         <a href="#courses">Servicios</a>
+         <a href="#teachers">Sobre Mí</a>
+         
+         <a href="#contact">Contacto</a>
+      </nav>
+
+      <div id="menu-btn" class="fas fa-bars"></div>
+
+   </section>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+   <div class="row">
+
+      <div class="content">
+         <h3>Digital <span>XXI</span></h3>
+         <a href="#contact" class="btn">contact us</a>
+      </div>
+
+      <div class="image">
+         <img src="images/web2.png" alt="">
+      </div>
+
+   </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- couter section stars  -->
+
+<section class="count">
+
+   <div class="box-container">
+
+      <div class="box">
+         <i class="fas fa-graduation-cap"></i>
+         <div class="content">
+            <h3>100%</h3>
+            <p>Dinámicas</p>
+         </div>
+      </div>
+
+      <div class="box">
+         <i class="fas fa-user-graduate"></i>
+         <div class="content">
+            <h3>+1</h3>
+            <p>Mentorias</p>
+         </div>
+      </div>
+
+      <div class="box">
+         <i class="fas fa-chalkboard-user"></i>
+         <div class="content">
+            <h3>100%</h3>
+            <p>Virtuales</p>
+         </div>
+      </div>
+
+      <div class="box">
+         <i class="fas fa-face-smile"></i>
+         <div class="content">
+            <h3>100%</h3>
+            <p>Recomendadas</p>
+         </div>
+      </div>
+
+   </div>
+
+</section>
+
+<!-- couter section ends -->
+
+<!-- about section starts  -->
+
+
+<!-- about section ends -->
+
+<!-- courses section starts  -->
+
+<section class="courses" id="courses">
+
+   <h1 class="heading">Nuestros <span>Servicios</span></h1>
+
+   <div class="swiper course-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide">
+            <img src="images/portfolio.png" alt="">
+            <h3>Portfolio</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, repellat!</p>
+         </div>
+
+         <div class="swiper-slide slide">
+            <img src="images/conec.png" alt="">
+            <h3>Mentoria Grupal</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, repellat!</p>
+         </div>
+
+         <div class="swiper-slide slide">
+            <img src="images/expert.png" alt="">
+            <h3>Seminarios</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, repellat!</p>
+         </div>
+
+  
+
+    <div class="swiper-slide slide">
+            <img src="images/capacit.png" alt="">
+            <h3>Capacitación Docente</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, repellat!</p>
+         </div>
+
+
+ </div>
+
+
+      <div class="swiper-pagination"></div>
+
+   
+
+ </div>
+
+
+</section>
+
+<!-- courses section ends -->
+
+<!-- teachers section starts  -->
+
+
+<!-- reviews section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+   <h1 class="heading"><span>contact</span> us</h1>
+
+   <div class="row">
+
+      <div class="image">
+         <img src="images/contactos1.png" alt="">
+      </div>
+
+      <form action="" method="post" netlify> 
+         <span>Nombre</span>
+         <input type="text" required placeholder="Enter your full name" maxlength="50" name="name" class="box">
+         <span>Email</span>
+         <input type="email" required placeholder="Enter your valie email" maxlength="50" name="email" class="box">
+         <span>Celular</span>
+         <input type="number" required placeholder="Enter your valie number" max="9999999999" min="0" name="number" class="box" onkeypress="if(this.value.length == 10) return false;">
+         <span>Servicios</span>
+         <select name="couses" class="box" required>
+            <option value="" disabled selected>Seleccione--</option>
+            <option value="web developement">Portfolio</option>
+            <option value="science and biology">Mentoria Individual</option>
+            <option value="engineering">Mentoria Grupal</option>
+            <option value="digital marketing">Seminarios</option>
+            <option value="graphic design">Capacitación Docente</option>
+          
+         </select>
+
+         <input type="submit" value="send message" class="btn" name="send">
+      </form>
+
+</section>
+
+<!-- contact section ends -->
+
+<!-- footer section starts  -->
+
+<footer class="footer">
+
+   <section>
+
+      <div class="share">
+         <a href="#" class="fab fa-facebook-f"></a>
+         <a href="#" class="fab fa-twitter"></a>
+         <a href="#" class="fab fa-linkedin"></a>
+         <a href="#" class="fab fa-instagram"></a>
+         <a href="#" class="fab fa-youtube"></a>
+      </div>
+
+      <div class="credit">&copy; copyright @ 2022 by <span>mr. web designer</span> | all rights reserved!</div>
+
+   </section>
+
+</footer>
+
+<!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- swiper js link  -->
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
